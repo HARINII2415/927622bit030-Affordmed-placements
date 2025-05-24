@@ -19,7 +19,7 @@
 
 ## 📸 Screenshots
 
-| Dashboard View | API View |
+| Dashboard View | Correlation View |
 |----------------|----------|
 | ![UI](./screenshots/dashboard.png) | ![API](./screenshots/correlation.png) |
 
