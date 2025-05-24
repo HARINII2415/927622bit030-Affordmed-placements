@@ -1,0 +1,1 @@
+# 927622bit030-Affordmed-placements
