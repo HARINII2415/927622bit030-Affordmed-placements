@@ -21,7 +21,7 @@
 
 | Dashboard View | API View |
 |----------------|----------|
-| ![UI](./screenshots/dashboard.png) | ![API](./screenshots/api-preview.png) |
+| ![UI](./screenshots/dashboard.png) | ![API](./screenshots/correlation.png) |
 
 ---
 
@@ -29,17 +29,10 @@
 
 | Frontend | Backend |
 |----------|---------|
-| React (Vite) | Python (Flask) |
-| TypeScript | flask-cors |
+| React (Vite) |
+| TypeScript  |
 | Recharts | REST APIs |
 | CSS Modules | JSON In-Memory DB |
 
 ---
 
-## 🛠️ Installation & Run Locally
-
-### 🔹 Backend (Flask)
-```bash
-cd backend
-pip install -r requirements.txt
-python app.py
