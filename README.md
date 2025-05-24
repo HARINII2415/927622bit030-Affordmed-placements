@@ -35,4 +35,52 @@
 | CSS Modules | JSON In-Memory DB |
 
 ---
+# ⚙️ Average Calculator HTTP Microservice- Question 2
+
+
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+
+A scalable microservice that consumes third-party numeric data and returns a rolling average result in real time, built for Affordmed's full stack technical assessment.
+
+---
+
+
+Supported `numberid` types:
+- `p` → Prime numbers
+- `f` → Fibonacci numbers
+- `e` → Even numbers
+- `r` → Random numbers
+
+---
+
+## 🛠️ Features
+
+- 📥 Fetches numbers from a given third-party server
+- 🧠 Maintains a dynamic sliding window of the last N unique numbers
+- 📊 Calculates and returns a rolling average
+- ❌ Ignores slow responses (over 500ms) and duplicates
+- ⚡ Responds in under 500ms consistently
+- ✅ JSON response format
+
+---
+
+## ⚙️ How It Works
+
+> The service fetches numbers from the third-party test API, manages a rolling window of unique numbers, and calculates the average.
+
+### ✅ Response Format
+
+```json
+{
+  "windowPrevState": [1, 3, 5],
+  "windowCurrState": [1, 3, 5, 7],
+  "numbers": [7],
+  "avg": 4.00
+}
+
+
+
+
+
+
 
