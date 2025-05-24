@@ -1,0 +1,26 @@
+{
+  
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    "skipLibCheck": true,
+
+// Config by Harini 2025 for modern ESNext compatibility
+
+   
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}
