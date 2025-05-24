@@ -9,7 +9,7 @@
 ## 🚀 Features
 
 - 📊 Real-time Stock Chart with Vite + React
-- 🧮 Flask backend with API endpoints
+- 🧮 Backend with API endpoints
 - 🔁 Dynamic data updates using Fetch
 - 📋 Detailed Stock Stats (Price, Volatility, Market Cap)
 - 💡 Clean UI with Tab-based Navigation (Stock Charts / Correlation)
