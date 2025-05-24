@@ -5,7 +5,7 @@
 > 🔥 A full stack stock dashboard that shows real-time stock trends, price statistics, and visualizes market activity in a smooth, interactive UI.
 
 ---
-[live](https://stoxiffy.onrender.com/)
+ Watch Full live => 🚀[live](https://stoxiffy.onrender.com/)
 ## 🚀 Features
 
 - 📊 Real-time Stock Chart with Vite + React
